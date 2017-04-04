@@ -3,7 +3,7 @@
 ## Objectives
 
 Many 3rd party software in Linux come with environment setup scripts,
-which typically detects OS platform and version, and sets up environment
+which typically detect OS platform and version, and set up environment
 variables and shell aliases.
 
 Traditionally, csh is popular among EDA software users and a lot of
@@ -28,9 +28,9 @@ $ icc hello.c
 
 The following script does the trick in the other direction.
 ```
-$ ./sourceAny.py -s "/opt/cogenda/current/bin/setenv.sh" -o ./setenv.csh
-$ source ./setenv.csh
-$ VisualTCAD
+% ./sourceAny.py -s "/opt/cogenda/current/bin/setenv.sh" -o ./setenv.csh
+% source ./setenv.csh
+% VisualTCAD
 ```
 
 To list all available options, type
